@@ -50,7 +50,7 @@ struct TabStack: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .background(AppConfig().backgroundLabel.opacity(0.5))
+        .background(AppConfig().backgroundLabel.opacity(0.1))
     }
 }
 

@@ -17,5 +17,10 @@ class AppConfig: ObservableObject {
     var foreground          = Color(red: 167/255, green: 178/255, blue: 210/255)
     var backgroundLabel     = LinearGradient(colors: [Color(red: 32/255, green: 40/255, blue: 63/255)], startPoint: .top, endPoint: .bottom)
     var backgroundGradient  = LinearGradient(colors: [Color(red: 32/255, green: 40/255, blue: 63/255), Color(red: 4/255, green: 5/255, blue: 8/255)], startPoint: .top, endPoint: .bottom)
+    
+    
+    var ChartBarIsShowing           = false
+    var ChartLineDistanceIsShowing  = false
+    var ChartLineStepsIsShowing     = true
 }
 
